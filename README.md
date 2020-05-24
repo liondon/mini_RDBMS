@@ -42,7 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Executing
 1. Put input files for inputfromfile functions (e.g. "sales1.txt") into the same directory as the the source code(.py) file.
-2. Execute the .py file `python3 lih238.py < "{input.txt}"`
+2. Execute the .py file `python lih238.py < "{input.txt}"`
 3. Output:  
     1. lih238_AllOperations.txt (a file with all operations' results): 
       - if the operation failed to execute, there will be an "Error!\n" message printed on the console and also written in this file
@@ -68,4 +68,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Running the tests
 1. run `python lih238.py < "input.txt"` to see if the program works properly.
-2. run `pythin lih238.py < "input2.txt"`, this might take 1-2 hours to run.
+2. run `python lih238.py < "input2.txt"`, this might take 1-2 hours to run.
