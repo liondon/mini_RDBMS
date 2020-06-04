@@ -9,7 +9,7 @@
 ###   >> Assuming: integer is 32-bit signed integer, string is 20-character unicode string
 ### - tableDic: tables["tableName"] returns [table, colDic]
 ### - colDic: column dictionary for corresponding table s.t. colDic["colName"] = index of that column (in that table)
-### - idxDic: indicex dictionary s.t. idxDic[(tableName, colName)] = corresponding index (hash or btree)
+### - idxDic: indices dictionary s.t. idxDic[(tableName, colName)] = corresponding index (hash or btree)
 ###   >> Assuming: There won't be both Btree and Hash indexes created on one field.
 ###                Index will only be on single field
 
@@ -17,7 +17,7 @@
 ### - This system is case-sensitive
 ### - Should be further modelized
 ### - there are some more functions in numpy library that could be useful
-### - functions related to using index is a mess
+### - functions related to using index is a mess, need further improvement.
 
 import sys
 import time
