@@ -1,4 +1,4 @@
-# mini_RDBMS
+# Miniature Relational Database with Order
 A program that performs basic operations of relational algebra.  
 Built with Python.
 
