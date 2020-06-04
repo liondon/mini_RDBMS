@@ -41,16 +41,16 @@ These instructions will get you a copy of the project up and running on your loc
 - PyPY BTrees package (4.6.1): use `pip install BTrees` to install it. (https://pypi.org/project/BTrees/)
 
 ### Executing
-1. Put input files for inputfromfile functions (e.g. "sales1.txt") into the same directory as the the source code(.py) file.
-2. Execute the .py file `python lih238.py < "{input.txt}"`
+1. Put input files for `inputfromfile` functions (e.g. ___sales1.txt___) into the same directory as the the source code file.
+2. Execute source code `python lih238.py < "{input.txt}"`
 3. Output:  
-    1. lih238_AllOperations.txt (a file with all operations' results): 
+    1. ___lih238_AllOperations.txt___ (a file with all operations' results): 
       - if the operation failed to execute, there will be an "Error!\n" message printed on the console and also written in this file
       - the record of each operation includes:
         - the first line indicate the operations executed.
         - the second part is 3 lines presenting the timing results,  
           showing 3 different results generating from different timimng methods in python <time> module.
-        - if there are new table created, it printed the table name(#rows), the header and the whold table. 
+        - if there are new table created, it printed the table name(#rows), the header and the whole table. 
         - For example:
           ```
           Now operating: inputfromfile with arguments--['sales1']
@@ -64,7 +64,7 @@ These instructions will get you a copy of the project up and running on your loc
           801|117|2|43|81|14|outrageous
           ...
           ```
-    2. outputtofile operation results
+    2. `outputtofile` operation results
 
 ## Running the tests
 1. run `python lih238.py < "input.txt"` to see if the program works properly.
